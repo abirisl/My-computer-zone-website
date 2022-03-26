@@ -16,17 +16,21 @@ const Products = () => {
     })
 
     const handleAddCartBtn = (product) =>{
-        if(carts.length >= 4){
-           return product
+        const newClothes= [...carts, product];
+        if(carts.length < 4){
+            setCart(newClothes);
         }
-       const newClothes= [...carts, product];
-       setCart(newClothes);
+        else{
+            alert('please no adding')
+        }
+       
+      
     }
     const chooseOneBook = () => {
         const newCart = [...carts]
         let randomItems = newCart[Math.floor(Math.random() * newCart.length)]
-        const { name,img } = randomItems;
-        alert(name,img);
+        const { name } = randomItems;
+        alert(name);
       }
 
     const removeBtn =() =>{
