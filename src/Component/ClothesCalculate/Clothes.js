@@ -1,14 +1,17 @@
 import React from 'react';
-import LoadProduct from '../LoadProduct/LoadProduct';
 import './Clothes.css'
 
-const Clothes = ({product,handleAgainBtn}) => {
+const Clothes = ({cart}) => {
+    const {name,price,generation,img} = cart
     return (
-        <div className='clothes'>
-            <h5>Selected Colthes: {product}</h5>
-            <LoadProduct></LoadProduct>
-            <button className='btn-choose'>Choose 1 For Me</button>
-            <button onClick={() => handleAgainBtn(product)} className='btn-again'>Choose Again</button>
+        <div className='selected-product'> 
+                <img src={img} alt="" />
+               
+            <div className='details'>
+            <h6>{name}</h6>
+            <p>Price: {price}</p>
+            <p>Generation: {generation}</p>
+            </div>
         </div>
     );
 };

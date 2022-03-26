@@ -1,9 +1,17 @@
-.clothes{
-    position: sticky;
-    top: 0;
-    color: rgb(245, 168, 80);
-    padding: 20px;
+.selected-product img{
+   width: 100px;
 
+}
+.details{
+    height: 80px;
+    padding-top: 20px;
+    margin-bottom: 60px;
+}
+.selected-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 .btn-choose{
     margin-top: 50px;

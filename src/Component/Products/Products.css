@@ -7,6 +7,9 @@
     
     background-color:  rgb(129, 120, 120);
 }
+.btn{
+    display: flex;
+}
    
 .product{
     display: grid;

@@ -3,7 +3,6 @@ import "./Device.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
-import Products from '../Products/Products';
 
 
 const Device = ({product,handlebtn}) => {

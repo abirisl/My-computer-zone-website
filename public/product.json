@@ -9,49 +9,66 @@
     },
     {
         "id": 2,
+        "name": "Dell leptop",
+        "price": 62000,
+        "img": "https://i.ibb.co/rbrG8FJ/dell-2.jpg",
+        "generation": "10th generation"
+        
+    },
+    {
+        "id": 3,
         "name": "Hp leptop",
-        "price": 42000,
+        "price": 36000,
         "img": "https://i.ibb.co/JcP6thg/hp.png",
         "generation": "7th generation"
         
     },
     {
-        "id": 3,
-        "name": "Asus leptop",
-        "price": 42000,
-        "img":"https://i.ibb.co/hcqxWKz/asus.jpg",
-        "generation": "7th generation"
-        
-    },
-    {
         "id": 4,
-        "name": "Lenova leptop",
+        "name": "Hp leptop",
         "price": 42000,
-        "img": "https://i.ibb.co/JdMLd4S/lenova.jpg",
+        "img": "https://i.ibb.co/hLTMrz4/hp-2.png",
         "generation": "7th generation"
         
     },
     {
         "id": 5,
-        "name": "Apple leptop",
-        "price": 42000,
-        "img": "https://i.ibb.co/BfC1N0w/Apple.jpg",
-        "generation": "7th generation"
+        "name": "Asus leptop",
+        "price": 68000,
+        "img":"https://i.ibb.co/hcqxWKz/asus.jpg",
+        "generation": "10th generation"
         
     },
     {
         "id": 6,
-        "name": "Walton leptop",
-        "price": 42000,
-        "img": "https://i.ibb.co/4MrP825/Walton.jpg",
+        "name": "Lenova leptop",
+        "price": 35000,
+        "img": "https://i.ibb.co/JdMLd4S/lenova.jpg",
         "generation": "7th generation"
         
     },
     {
         "id": 7,
-        "name": "Acer leptop",
-        "price": 42000,
-        "img": "",
+        "name": "Apple leptop",
+        "price": 90000,
+        "img": "https://i.ibb.co/5xS90bz/apple-2.jpg",
+        "generation": "10th generation"
+        
+    },
+    {
+        "id": 8,
+        "name": "Apple Mac pro",
+        "price": 95000,
+        "img": "https://i.ibb.co/3WPxyKV/mac.jpg",
+        "generation": "11th generation"
+        
+    },
+    
+    {
+        "id": 9,
+        "name": "Walton leptop",
+        "price": 32000,
+        "img": "https://i.ibb.co/4MrP825/Walton.jpg",
         "generation": "7th generation"
         
     }
