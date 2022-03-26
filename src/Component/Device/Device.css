@@ -1,0 +1,21 @@
+.device-container{
+   border: 2px solid rosybrown;
+   border-radius: 10px;
+   padding: 5px;
+   background-color: #FFFFFF;
+}
+.btn-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    background-color:paleturquoise;
+}
+.btn-cart:hover{
+    background-color: coral;
+}
+.btn-cart .btn-text{
+    margin-right: 10px;
+    margin-top: 10px;
+}

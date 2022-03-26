@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Dell leptop",
+        "price": 42000,
+        "img": "https://i.ibb.co/yVKSM1B/dell.jpg",
+        "generation": "7th generation"
+        
+    },
+    {
+        "id": 2,
+        "name": "Hp leptop",
+        "price": 42000,
+        "img": "https://i.ibb.co/JcP6thg/hp.png",
+        "generation": "7th generation"
+        
+    },
+    {
+        "id": 3,
+        "name": "Asus leptop",
+        "price": 42000,
+        "img":"https://i.ibb.co/hcqxWKz/asus.jpg",
+        "generation": "7th generation"
+        
+    },
+    {
+        "id": 4,
+        "name": "Lenova leptop",
+        "price": 42000,
+        "img": "https://i.ibb.co/JdMLd4S/lenova.jpg",
+        "generation": "7th generation"
+        
+    },
+    {
+        "id": 5,
+        "name": "Apple leptop",
+        "price": 42000,
+        "img": "https://i.ibb.co/BfC1N0w/Apple.jpg",
+        "generation": "7th generation"
+        
+    },
+    {
+        "id": 6,
+        "name": "Walton leptop",
+        "price": 42000,
+        "img": "https://i.ibb.co/4MrP825/Walton.jpg",
+        "generation": "7th generation"
+        
+    },
+    {
+        "id": 7,
+        "name": "Acer leptop",
+        "price": 42000,
+        "img": "",
+        "generation": "7th generation"
+        
+    }
+]
