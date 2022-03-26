@@ -22,3 +22,29 @@
     background-color:cadetblue;
     padding: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .product{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+        border: 2px solid aquamarine;
+        background-color:cadetblue;
+        width: 100%;
+    }
+    .products-container{
+        display: grid;
+        grid-template-columns: 1fr ;
+        
+    }
+    .clothes-container{
+        width: 100%;
+      
+    }
+    .question{
+        width: 100%;
+    }
+}

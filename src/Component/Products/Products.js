@@ -25,9 +25,8 @@ const Products = () => {
     const chooseOneBook = () => {
         const newCart = [...carts]
         let randomItems = newCart[Math.floor(Math.random() * newCart.length)]
-        const { name } = randomItems;
-        alert(name);
-         setCart([]);
+        const { name,img } = randomItems;
+        alert(name,img);
       }
 
     const removeBtn =() =>{
@@ -44,13 +43,19 @@ const Products = () => {
             <div className='clothes-container'>
                 <h4>Selected Clothes: {carts.length}</h4>
               {
-                  carts.map(cart => <Clothes cart= {cart}></Clothes>)
+                  carts.map(cart => <Clothes  cart= {cart}></Clothes>)
               }
               <div className='btn'>
               <button onClick={chooseOneBook}>Choose 1 For Me</button>
               <button onClick={removeBtn}>Choose Again</button>
               </div>
             </div>
+            <div className='question'>
+              <h2>How React Works?</h2>
+              <p>Answer: React is a declarative, efficient, and flexible JavaScript library for building user interfaces. ReactJS is an open-source, component-based front end library responsible only for the view layer of the application. It is maintained by Facebook. React will efficiently update and render just the right component when your data changes.</p>
+              <h2>What is usestate?</h2>
+               <p>Answer: First We have the functional component which does not support state. In other Words a functional component is a stateless component Noe with Hooks we have the functional component but stateful it is achieved by using usestate.</p>
+              </div>
         </div>
     );
 };
