@@ -1,3 +1,3 @@
 ## Computer-Zone
-## live site: git add .
+## live site link:
 https://enchanting-croissant-619859.netlify.app/
