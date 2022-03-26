@@ -1,0 +1,15 @@
+.clothes{
+    position: sticky;
+    top: 0;
+    color: rgb(245, 168, 80);
+    padding: 20px;
+
+}
+.btn-choose{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.btn-again{
+    margin-right: 70px;
+    margin-top: 10px;
+}
