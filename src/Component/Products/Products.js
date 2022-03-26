@@ -21,7 +21,7 @@ const Products = () => {
             setCart(newClothes);
         }
         else{
-            alert('please no adding')
+            alert('please no adding');
         }
        
       
